@@ -20,6 +20,16 @@ struct StinsenNavigationIssueExampleApp: App {
 final class MainCoordinator: NavigationCoordinatable {
     var stack = NavigationStack(initial: \MainCoordinator.start)
 
+    @Root private var start = makeStart
+
+    private func makeStart() -> ContentViewCoordinator {
+        ContentViewCoordinator()
+    }
+}
+
+final class ContentViewCoordinator: NavigationCoordinatable {
+    var stack = NavigationStack(initial: \ContentViewCoordinator.start)
+
     @Root private var start = makeContentView
     @Route(.fullScreen) private var secondary = makeSecondaryCoordinator
 
