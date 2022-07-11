@@ -11,6 +11,7 @@
 		DD5A579C287C2D02009B1664 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A579B287C2D02009B1664 /* ContentView.swift */; };
 		DD5A579E287C2D03009B1664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5A579D287C2D03009B1664 /* Assets.xcassets */; };
 		DD5A57A1287C2D03009B1664 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5A57A0287C2D03009B1664 /* Preview Assets.xcassets */; };
+		DD5A57A9287C2DCA009B1664 /* Stinsen in Frameworks */ = {isa = PBXBuildFile; productRef = DD5A57A8287C2DCA009B1664 /* Stinsen */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5A57A9287C2DCA009B1664 /* Stinsen in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = StinsenNavigationIssueExample;
+			packageProductDependencies = (
+				DD5A57A8287C2DCA009B1664 /* Stinsen */,
+			);
 			productName = StinsenNavigationIssueExample;
 			productReference = DD5A5796287C2D02009B1664 /* StinsenNavigationIssueExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = DD5A578D287C2D02009B1664;
+			packageReferences = (
+				DD5A57A7287C2DCA009B1664 /* XCRemoteSwiftPackageReference "stinsen" */,
+			);
 			productRefGroup = DD5A5797287C2D02009B1664 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -195,7 +203,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -337,6 +345,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD5A57A7287C2DCA009B1664 /* XCRemoteSwiftPackageReference "stinsen" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rundfunk47/stinsen";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD5A57A8287C2DCA009B1664 /* Stinsen */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD5A57A7287C2DCA009B1664 /* XCRemoteSwiftPackageReference "stinsen" */;
+			productName = Stinsen;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD5A578E287C2D02009B1664 /* Project object */;
 }

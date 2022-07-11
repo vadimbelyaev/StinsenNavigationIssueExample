@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "stinsen",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rundfunk47/stinsen",
+      "state" : {
+        "revision" : "add05384b65ae3e39474f51ab5b9281abd238c60",
+        "version" : "2.0.9"
+      }
+    }
+  ],
+  "version" : 2
+}
