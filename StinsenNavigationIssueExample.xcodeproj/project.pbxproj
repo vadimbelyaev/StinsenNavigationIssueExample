@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DD5A579A287C2D02009B1664 /* StinsenNavigationIssueExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A5799287C2D02009B1664 /* StinsenNavigationIssueExampleApp.swift */; };
-		DD5A579C287C2D02009B1664 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A579B287C2D02009B1664 /* ContentView.swift */; };
 		DD5A579E287C2D03009B1664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5A579D287C2D03009B1664 /* Assets.xcassets */; };
 		DD5A57A1287C2D03009B1664 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5A57A0287C2D03009B1664 /* Preview Assets.xcassets */; };
 		DD5A57A9287C2DCA009B1664 /* Stinsen in Frameworks */ = {isa = PBXBuildFile; productRef = DD5A57A8287C2DCA009B1664 /* Stinsen */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		DD5A5796287C2D02009B1664 /* StinsenNavigationIssueExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StinsenNavigationIssueExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5A5799287C2D02009B1664 /* StinsenNavigationIssueExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StinsenNavigationIssueExampleApp.swift; sourceTree = "<group>"; };
-		DD5A579B287C2D02009B1664 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD5A579D287C2D03009B1664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD5A57A0287C2D03009B1664 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				DD5A5799287C2D02009B1664 /* StinsenNavigationIssueExampleApp.swift */,
-				DD5A579B287C2D02009B1664 /* ContentView.swift */,
 				DD5A579D287C2D03009B1664 /* Assets.xcassets */,
 				DD5A579F287C2D03009B1664 /* Preview Content */,
 			);
@@ -145,7 +142,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5A579C287C2D02009B1664 /* ContentView.swift in Sources */,
 				DD5A579A287C2D02009B1664 /* StinsenNavigationIssueExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
